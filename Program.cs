@@ -1,14 +1,12 @@
-﻿int a = 7;
-int b = 4;
-int c = 3;
-int d = (a + b) / c;
-int e = (a + b) % c;
-Console.WriteLine($"quotient: {d}");
-Console.WriteLine($"remainder: {e}");
+﻿double a = 19;
+double b = 28;
+double c = 8;
+double d = (a + b) / c;
+Console.WriteLine(d);
 
-int max = int.MaxValue;
-int min = int.MinValue;
-Console.WriteLine($"The range of integers is {min} to {max}");
+double max = double.MaxValue;
+double min = double.MinValue;
+Console.WriteLine($"The range of double is {min} to {max}");
 
-int what = max + 3;
-Console.WriteLine($"An example of overflow: {what}");
+double third = 2.0/7.0;
+Console.WriteLine(third);
